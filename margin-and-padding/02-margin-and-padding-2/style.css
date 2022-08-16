@@ -10,18 +10,47 @@ body {
 }
 
 .title {
+  font-size: 16px;
   background: #e3f4ff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-right: #fff solid 8px;
+  border-left: #fff solid 8px;
+  border-top: #fff solid 8px;
+  border-bottom: #fff solid 8px;
+  margin-bottom: auto;
+  
 }
 
 .content {
   background: #e3f4ff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-right: #fff solid 8px;
+  border-left: #fff solid 8px;
+  /* border-bottom: #fff solid 8px; */
+ 
 }
 
 .button-container {
+  text-align: center;
+  padding: 8px;
   background: #e3f4ff;
+  border: #fff solid 8px;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px 8px 24px;
+}
+
+p{
+  margin-bottom: auto;
+  margin-top: auto;
 }
