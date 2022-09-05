@@ -20,7 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* solution */
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
+/* added classes */
+.header-container
+{
+  display: flex;
+
+}
+.text
+{
+  margin-bottom: 16px;
+
+}
+.header
+{
+  flex: auto;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 8px;
+}
+/* end of classes added by me */
 
 .icon {
   color: royalblue;
@@ -33,6 +56,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* solution */
+  flex: 0 0 auto;
 }
 
 .close-button {
